@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="40dp"
+    android:gravity="center_vertical"
+    android:minWidth="25px"
+    android:minHeight="25px">
+  <TextView
+      android:text="0"
+      android:textSize="75dp"
+      android:gravity="center_horizontal"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/textViewScore" />
+  <Button
+      android:text="1"
+      android:height="50dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/button1"
+      android:layout_marginBottom="10dp" />
+  <Button
+      android:text="2"
+      android:height="50dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/button2"
+      android:layout_marginBottom="10dp" />
+  <Button
+      android:text="3"
+      android:height="50dp"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/button3"
+      android:layout_marginBottom="10dp" />
+  <LinearLayout
+      android:orientation="horizontal"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_gravity="right">
+    <Button
+        android:text="Börja om"
+        android:id="@+id/buttonRetry"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+    <Button
+        android:text="Tack till"
+        android:id="@+id/buttonCredit"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent" />
+  </LinearLayout>
+</LinearLayout>
